@@ -68,11 +68,7 @@ menuBtn.addEventListener('click',function(e){
 closeMenu.addEventListener('click',function(e){
 	menuLinks.classList.remove('open');
 });
-menuLinks.addEventListener('click',function(e){
-	
-	e.stopPropagation();
-	
-});
+
 document.addEventListener('click',function(e){
 	if(e.target !== menuLinks && e.target !== menuBtn){
 		
