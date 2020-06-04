@@ -602,9 +602,10 @@ header ul li a{
 /*Start Testimonials section Style*/
 
 .testimonials{
-	margin:120px 0;
+	margin-top:120px;
 	text-align:center;
-	height: 265px;
+	max-height: 407px;
+    height: calc(100vh);
 }
 .testimonials h2{
 	margin-bottom:30px
@@ -664,6 +665,10 @@ header ul li a{
 }
 
 @media(max-width:991px){ 
+	.testimonials{
+		margin:120px 0 0;
+	}
+
 	.testimonials h2{
 		font-size:30px
 	}
