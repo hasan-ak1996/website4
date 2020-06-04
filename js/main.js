@@ -63,6 +63,7 @@ slider();
 
 menuBtn.addEventListener('click',function(e){
 	menuLinks.classList.add('open');
+	e.stopPropagation();
 });
 
 closeMenu.addEventListener('click',function(e){
